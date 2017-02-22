@@ -6,7 +6,7 @@ I was recently asked with outlining Indian states on an map. To do this, I gener
 However, the coordinates saved in Google Earth's .kml file were saved in a format that was different to the way my iOS app's .plist file would like it.
 I wrote this program to format the coordinates into a format accepted by a .plist file, thereby automating a small part of the work (and learning more about SwiftPM)
 
-eg: The coordinate *84.28138026856158,25.94399734485856,0* will be changed to *<string>{84.28138026856158,25.94399734485856}</string>*
+eg: The coordinate ```84.28138026856158,25.94399734485856,0``` will be changed to ```<string>{84.28138026856158,25.94399734485856}<string>```
 
 The output (all formatted coordinates) will be printed in the terminal window.
 
